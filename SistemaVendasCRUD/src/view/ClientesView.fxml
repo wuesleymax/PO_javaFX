@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="controller.MainController" spacing="20" alignment="CENTER" 
+      style="-fx-padding: 30; -fx-background-color: #f4f4f4;">
+   
+   <Label text="Sistema de Vendas - CRUD MVC" style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+   
+   <VBox spacing="10" alignment="CENTER">
+      <Button text="Gerenciar Clientes" onAction="#abrirClientes" prefWidth="200"/>
+      <Button text="Gerenciar Produtos" onAction="#abrirProdutos" prefWidth="200"/>
+      <Button text="Gerenciar Categorias" onAction="#abrirCategorias" prefWidth="200"/>
+      <Button text="Gerenciar Vendas" onAction="#abrirVendas" prefWidth="200"/>
+      <Button text="Gráfico de Vendas" onAction="#abrirGrafico" prefWidth="200"/>
+   </VBox>
+   
+</VBox>
